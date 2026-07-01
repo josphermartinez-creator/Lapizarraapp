@@ -1,0 +1,59 @@
+==========================================================
+  LA PIZARRA — Cómo instalarla como app en tu teléfono
+==========================================================
+
+Esta es una app web instalable (PWA). Para que funcione como app de
+verdad (ícono en pantalla, pantalla completa, recuerda tu clave) necesita
+estar en un enlace HTTPS. Es gratis y toma unos minutos.
+
+----------------------------------------------------------
+PASO 0 — Tu clave gratuita de datos
+----------------------------------------------------------
+1. Entra a https://the-odds-api.com/ y crea una cuenta gratis.
+2. Copia tu API key del panel. La pegarás dentro de la app una sola vez;
+   queda guardada en tu teléfono.
+
+----------------------------------------------------------
+OPCIÓN A — Netlify Drop (la más fácil, sin cuenta de código)
+----------------------------------------------------------
+1. En una computadora, descomprime el archivo .zip (te queda la carpeta
+   "pizarra-app").
+2. Abre https://app.netlify.com/drop
+3. Arrastra la CARPETA "pizarra-app" a la página.
+4. Netlify te da un enlace https://... (ese es tu app).
+5. Abre ese enlace en el navegador de tu teléfono.
+
+----------------------------------------------------------
+OPCIÓN B — GitHub Pages (permanente, con cuenta gratis)
+----------------------------------------------------------
+1. Crea una cuenta en https://github.com (gratis).
+2. Crea un repositorio nuevo (New repository), por ejemplo "pizarra".
+3. Sube TODOS los archivos de la carpeta "pizarra-app"
+   (index.html, manifest.webmanifest, sw.js, los .png).
+4. En el repo: Settings ▸ Pages ▸ Branch: main ▸ Save.
+5. En unos minutos te da un enlace https://TU-USUARIO.github.io/pizarra/
+6. Abre ese enlace en el navegador de tu teléfono.
+
+----------------------------------------------------------
+PASO FINAL — Instalar en la pantalla de inicio
+----------------------------------------------------------
+ANDROID (Chrome):
+  - Aparecerá el botón "Instalar" arriba en la app, o
+  - Menú (⋮) ▸ "Instalar aplicación" / "Agregar a pantalla de inicio".
+
+iPHONE (Safari):
+  - Toca Compartir (el cuadro con la flecha) ▸ "Agregar a inicio".
+
+Listo: ya tienes el ícono de La Pizarra en tu teléfono.
+Ábrela, pega tu API key una vez, elige el deporte y a buscar valor.
+
+----------------------------------------------------------
+NOTAS
+----------------------------------------------------------
+- El plan gratis de datos da ~500 solicitudes/mes. La app te muestra
+  arriba cuántas te quedan.
+- Tu clave se guarda solo en tu teléfono. Para cambiarla, toca el
+  engranaje (⚙) dentro de la app.
+- Un valor esperado positivo (+EV) mejora tus probabilidades a la larga,
+  pero un parley nunca está garantizado: cada pata debe acertar.
+  Apuesta solo lo que puedas permitirte perder.
